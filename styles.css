@@ -39,3 +39,53 @@ button:hover{
     justify-content: space-between;
     
 }
+/*media querys*/
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 60px; 
+    }
+
+    th {
+        font-size: 16px; 
+    }
+
+    input {
+        font-size: 18px; 
+        width: 100%; 
+    }
+
+    button {
+        font-size: 18px; 
+        min-width: 100px; 
+    }
+
+    .botones {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .botones button {
+        margin-top: 10px; 
+        width: 100%; 
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 40px; 
+    }
+
+    th {
+        font-size: 14px; 
+    }
+
+    button {
+        font-size: 16px; 
+        padding: 10px; 
+    }
+}
