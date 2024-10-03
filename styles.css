@@ -42,7 +42,7 @@ button:hover{
 
 
 /* Estilos para pantallas pequeñas (teléfonos) */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1081px) {
     h1 {
         font-size: 40px;
     }
