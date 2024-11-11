@@ -5,7 +5,7 @@ let inputs = filaPrincipal.getElementsByTagName('input');
 let boton = document.getElementById('boton');
 let clear = document.getElementById('clear');
 
-
+//Función para los decimales
 function saleDecimal(){
     let num = parseInt(inputs[0].value);
     let bin = decimalABinario(num);
@@ -16,6 +16,7 @@ function saleDecimal(){
     inputs[3].value = hex;
 
 }
+//Función para los binarios
 function saleBin(){
     let bin = inputs[1].value;
     let num = binADecimal(bin);
@@ -25,6 +26,7 @@ function saleBin(){
     inputs[2].value = octal;
     inputs[3].value = hex;
 }
+//Función para los octales
 function saleOctal(){
     let octal = inputs[2].value;
     let bin = octalABinario(octal)
@@ -34,7 +36,7 @@ function saleOctal(){
     inputs[1].value = bin;
     inputs[3].value = hex;
 }
-
+//Función para los hexadecimales
 function saleHex(){
     let hex = inputs[3].value;
     let bin = hexABinario(hex)
@@ -57,7 +59,7 @@ boton.addEventListener('click',()=>{
 });
 
 
-
+//Limpiar el área de trabajo
 clear.addEventListener('click',()=>{
     console.log('entra')
     let colec = Array.from(inputs)
