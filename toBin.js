@@ -1,4 +1,4 @@
-//Archivo para convertir de un formato a binario.
+//Archivo para convertir un numero de un formato a binario.
 //Para convertir de decimal a binario
 function decimalABinario(numero){
     let bin = '';
