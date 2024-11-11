@@ -1,4 +1,4 @@
-//decimal a binario
+//Para convertir de decimal a binario
 function decimalABinario(numero){
     let bin = '';
     while(numero>2){

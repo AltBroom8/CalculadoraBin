@@ -1,3 +1,4 @@
+//Para convertir de binario a otro formato numerico
 function reverse(string){
     let nueva =''; 
     for (let i = 0; i< string.length;i++){
